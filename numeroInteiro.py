@@ -1,9 +1,7 @@
-inteiro =  17 // 3
+inteiro =  17 // 3  # a divisão inteira descarta a parte fracionária 
+num = 17 % 3   # o operador % retorna o resto da divisão 
+quadrado = 5  **  2   # 5 ao quadrado 
 print ( inteiro ) # 5
-# Acessando caracteres de uma string
-palavra = 'Python'
-palavra [ 0 ] # caractere na posição 0 'P' 
-palavra [ 5 ] # caractere na posição 5 ' n ' 
-print ( palavra [ 0 ] )
-print ( palavra [ 5 ] )
-print ( len ( palavra ) ) # 6
+print ( num ) # 2
+print ( quadrado ) # 25
+
