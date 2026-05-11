@@ -22,3 +22,9 @@ print ( palavra) # 'Pypthon'
 
 s =  'supercalifragilisticexpialidocious' 
 print ( len ( s ) ) # 34
+
+
+#lista = [1, 2, 3, 4, 5] pode mudar/adicionar/tirar elementos da lista.
+#tuple = (1, 2, 3, 4, 5) não pode mudar os elementos da tupla depois de criada.
+#set = {1, 2, 3, 4, 5} não pode conter elementos duplicados e não tem ordem específica.
+#dict = {"key1": "value1", "key2": "value2"} é uma coleção de pares chave-valor, onde cada chave é única e mapeada para um valor.

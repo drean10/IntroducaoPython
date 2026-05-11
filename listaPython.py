@@ -1,3 +1,27 @@
+#--------------------------------------------------------------------------------
+#OBS : 
+#lista = [1, 2, 3, 4, 5] pode mudar/adicionar/tirar elementos da lista.
+#tuple = (1, 2, 3, 4, 5) não pode mudar os elementos da tupla depois de criada.
+#set = {1, 2, 3, 4, 5} não pode conter elementos duplicados e não tem ordem específica.
+#dict = {"key1": "value1", "key2": "value2"} é uma coleção de pares chave-valor, onde cada chave é única e mapeada para um valor.
+#--------------------------------------------------------------------------------
+
+#Trabalhando com listas 
+
+nomes = ["Andre", "Maria", "João", "Ana"]
+print(nomes) # Output: ['Andre', 'Maria', 'João', 'Ana']
+print(nomes[0]) # Output: Andre
+print(nomes[1]) # Output: Maria
+
+#.append() para adicionar um elemento ao final da lista.
+nomes.append("Carlos")
+print(nomes) # Output: ['Andre', 'Maria', 'João', 'Ana', 'Carlos'] 
+
+#.sort() para ordenar a lista em ordem alfabética.
+nomes.sort()
+print(nomes) # Output: ['Ana', 'Andre', 'Carlos', 'João', 'Maria']
+
+#-------------------------------------------------------------------------------
 quadrados = [ 1 , 4 , 9 , 16 , 25 ] + [ 30, 35, 40]
 quadrados + [30,35,40] # [1, 4, 9, 16, 25, 30, 35, 40]
 print ( quadrados )
@@ -5,7 +29,6 @@ print ( quadrados [ 0 ] ) # 1
 print ( quadrados [ 4 ] ) # 25
 
 #------------------------------------------------------------------------------
-
 
 import math
 
@@ -87,3 +110,6 @@ print(message)  # Output: Meu nome é Andre e tenho 40 anos de idade.
 # Example 3: Formatting with keyword arguments
 message = "Meu nome é {name} e tenho {age} anos de idade.".format(name="Andre", age=40)
 print(message)  # Output: Meu nome é Andre e tenho 40 anos de idade.
+
+
+
