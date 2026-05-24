@@ -7,12 +7,12 @@ class Voo:
         """Retorna quantos assentos ainda estão livres."""
         return self.capacidade - len(self.passageiros)
 
-    def open_seats(self) -> bool:
+    def assentosDisponiveis(self) -> bool:
         """Retorna True se ainda houver assentos disponíveis."""
         return self.assentos_disponiveis() > 0
 
     def add_passageiros(self, nome: str) -> bool:
-        if not self.open_seats():
+        if not self.assentosDisponiveis():
             return False
 
         self.passageiros.append(nome)  # adiciona o nome do passageiro à lista
